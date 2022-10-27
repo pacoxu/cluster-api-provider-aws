@@ -449,7 +449,7 @@ data:
           dnsPolicy: ClusterFirst
           hostNetwork: true
           nodeSelector:
-            beta.kubernetes.io/os: linux
+            kubernetes.io/os: linux
           priorityClassName: system-node-critical
           serviceAccountName: efs-csi-node-sa
           tolerations:
